@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sendgun helps businesses send reliable bulk SMS and connect with customers.">
+  <title>Sendgun — Bulk SMS &amp; SMS API</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- The blue hero contains the main navigation, headline, and demo form. -->
+  <header class="hero" id="home">
+    <nav class="site-nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Sendgun home"><span class="brand-mark">∞</span><span>Sendgun</span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#features">Features</a>
+        <a href="#industries">Use Cases</a>
+        <a href="#sms-guide">SMS / Bulk / API</a>
+        <a href="#contact">Pricing</a>
+        <a href="#sms-guide">API</a>
+      </div>
+      <a class="button button-lime nav-cta" href="#contact">Get Demo <span>↗</span></a>
+    </nav>
+
+    <div class="hero-content container">
+      <div class="hero-copy">
+        <p class="status-pill"><span></span> Live — 99.9% uptime SLA</p>
+        <h1>Boost Your <strong>Communication</strong> with Fast, Reliable &amp; <strong>DLT-Compliant Bulk SMS</strong></h1>
+        <p class="hero-description">Sendgun helps you deliver promotional offers, transactional alerts and OTPs instantly across India. From automated campaigns to real-time analytics — everything you need to reach your audience at scale, fully compliant with TRAI regulations.</p>
+        <div class="hero-actions">
+          <a class="button button-lime" href="#contact">Get Started for Free <span>↗</span></a>
+          <a class="button button-outline" href="#contact">Contact Sales <span>↗</span></a>
+        </div>
+        <p class="hero-note">Trusted by <strong>10,000+</strong> businesses for reliable bulk SMS communication across India.</p>
+      </div>
+      <div class="hero-person"><img src="assets/hero-woman.jpg" alt="Customer using a phone to read a message"></div>
+
+      <!-- A simple lead form is shown directly in the hero, as in the reference. -->
+      <form class="demo-card" id="demo-form">
+        <h2>Start today and claim <strong>10,000</strong><br>free credits.</h2>
+        <label for="full-name">Full Name <span>*</span></label>
+        <input id="full-name" name="fullName" type="text" placeholder="e.g. Sam Taylor" required>
+        <label for="email">Email <span>*</span></label>
+        <input id="email" name="email" type="email" placeholder="name@example.com" required>
+        <label for="phone">Phone Number <span>*</span></label>
+        <input id="phone" name="phone" type="tel" placeholder="+91 98765 43210" pattern="[+0-9 ()-]{8,}" required>
+        <button class="button button-blue submit-button" type="submit">Submit</button>
+        <div class="review-row"><span>★ ★ ★ ★ ★<small>Trustpilot<br>Trustscore 4.8</small></span><span><b>Google</b><small>★★★★★<br>Google Rating 4.8</small></span></div>
+        <p class="form-message" id="form-message" aria-live="polite"></p>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <!-- The three numbers overlap the bottom edge of the hero. -->
+    <section class="stats container" aria-label="Sendgun results">
+      <div><strong>1M+</strong><span>Developers &amp; Businesses</span></div>
+      <div><strong>98%</strong><span>SMS Open Rate</span></div>
+      <div><strong>99.9%</strong><span>Uptime SLA</span></div>
+    </section>
+
+    <section class="section features container" id="features">
+      <div class="section-heading feature-heading">
+        <div><p class="eyebrow">Platform Features</p><h2>Everything You Need to<br>Communicate at Scale</h2></div>
+        <p>A complete SMS infrastructure built for Indian businesses — from single-click campaigns to enterprise API integrations.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card highlighted"><span class="icon">文</span><h3>Unicode &amp; Regional Languages</h3><p>Send messages in Hindi and other regional languages to connect better with local audiences across India — in the language they prefer.</p></article>
+        <article class="feature-card"><span class="icon gray">♙</span><h3>Enterprise-Grade Security</h3><p>Support for two-factor authentication (2FA), OTP verification and sender ID verification. Keep your communications safe, secure and auditable.</p></article>
+        <article class="feature-card"><span class="icon">⚙</span><h3>SMS Rest API</h3><p>Plug-and-play REST API with comprehensive documentation, server-side SDKs for PHP, Python, Node.js and more. Integrate in minutes, not days.</p></article>
+        <article class="feature-card"><span class="icon gray">▣</span><h3>Bulk SMS Dashboard</h3><p>Send thousands of messages instantly with just a few clicks. No technical knowledge required — a clean interface for marketers and operations teams alike.</p></article>
+        <article class="feature-card"><span class="icon gray">▤</span><h3>100% DLT Compliant</h3><p>Fully compliant with TRAI's DLT regulations. We assist with your DLT registration to ensure smooth message delivery and help your business avoid penalties.</p></article>
+        <article class="feature-card"><span class="icon gray">✦</span><h3>AI-Powered Chatbots</h3><p>Enhance customer engagement with intelligent chatbot automation. Handle FAQs, order queries and support quickly with minimal intervention.</p></article>
+        <article class="feature-card"><span class="icon gray">☏</span><h3>Two-Way Messaging</h3><p>Engage customers in real-time conversations where they can reply directly via SMS. Build interactive campaigns and customer service workflows with ease.</p></article>
+      </div>
+    </section>
+
+    <div class="benefit-ribbon" aria-label="Sendgun platform benefits"><div class="ribbon-track"><span>✣ &nbsp; Direct Operator Connections</span><span>✣ &nbsp; 100% DLT Compliant</span><span>✣ &nbsp; Enterprise-Grade Security</span><span>✣ &nbsp; 24/7 Customer Support</span><span>✣ &nbsp; Direct Operator Connections</span></div></div>
+
+    <!-- A small dashboard illustration recreates the metrics panel in the screenshot. -->
+    <section class="dashboard-section" id="dashboard">
+      <div class="dashboard container">
+        <h2><span class="brand-mark">∞</span> Sendgun <span>Dashboard</span></h2>
+        <div class="metric-grid">
+          <div><small>Messages Sent</small><strong>2.4M</strong><em>↑ 12% this month</em></div>
+          <div><small>Delivery Rate</small><strong>98.7%</strong><em>↑ 0.3% vs last week</em></div>
+          <div><small>Open Rate</small><strong>97.1%</strong><em>↑ industry-leading</em></div>
+          <div><small>Customer Satisfaction</small><strong>4.9/5</strong><em>♥ Trusted by businesses</em></div>
+        </div>
+        <div class="chart" aria-label="Messages sent from Monday to Sunday"><div style="height:48%"></div><div style="height:68%"></div><div style="height:47%"></div><div class="today" style="height:88%"></div><div style="height:52%"></div><div style="height:36%"></div><div style="height:27%"></div></div>
+        <div class="weekdays"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div>
+        <p class="live-note">● All systems operational · Last updated 2 minutes ago</p>
+      </div>
+    </section>
+
+    <section class="section industries" id="industries">
+      <div class="container">
+        <div class="center-heading"><p class="eyebrow">Industry Solutions</p><h2>Built for Every Industry</h2><p>Sendgun powers communication for businesses across all major verticals in India.</p></div>
+        <div class="industry-map">
+          <div class="hub"><span>∞</span></div>
+          <div class="industry-grid">
+            <article><span>▣</span><h3>E-commerce &amp; Retail</h3><p>Order confirmations, shipping updates, abandoned cart reminders and discount codes that convert.</p></article>
+            <article><span>♜</span><h3>BFSI &amp; Fintech</h3><p>OTPs, balance alerts, payment reminders, fraud notifications and transaction failure alerts delivered instantly.</p></article>
+            <article><span>✚</span><h3>Healthcare</h3><p>Appointment confirmations, prescription reminders and health check-up notifications for patients and clinics.</p></article>
+            <article><span>♙</span><h3>Education</h3><p>Exam schedules, fee payment reminders, result announcements and campus event communications.</p></article>
+            <article><span>◉</span><h3>Hospitality &amp; Travel</h3><p>Booking confirmations, itinerary updates, check-in reminders and promotional offers for travellers.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The photo band summarizes SMS engagement statistics. -->
+    <section class="photo-band" aria-label="SMS engagement statistics">
+      <img src="assets/business-team.jpg" alt="Business team working together in an office">
+      <div class="photo-shade"></div>
+      <div class="photo-stats container"><div><span>SMS messages are opened higher than any other digital channel</span><strong>98%</strong></div><div><span>Average time to open — 90% of SMS messages are read within 3 minutes of receipt</span><strong>3 min</strong></div><div><span>Higher conversion rates compared with other digital marketing channels</span><strong>60%</strong></div></div>
+    </section>
+
+    <section class="section why-section container">
+      <div class="center-heading"><p class="eyebrow">Why Sendgun</p><h2>The Smarter Choice for Business SMS</h2><p>Trusted by over a million developers and businesses across India for a reason.</p></div>
+      <div class="why-grid">
+        <article><span>◷</span><h3>Instant Delivery</h3><p>Messages reach customers in seconds, ensuring time-sensitive updates, OTPs and promotional offers are delivered precisely when it matters most.</p><a href="#contact">Chat With Executive</a></article>
+        <article><span>♙</span><h3>Unmatched Open Rates</h3><p>SMS achieves a 98% open rate, with 90% read within the first three minutes — far outperforming email, push notifications and social media.</p><a href="#contact">Chat With Executive</a></article>
+        <article><span>♜</span><h3>Scalable Infrastructure</h3><p>From a few hundred to tens of millions of messages, our infrastructure handles any volume effortlessly, with no delays or system failures.</p><a href="#contact">Chat With Executive</a></article>
+        <article><span>▣</span><h3>Cost-Effective</h3><p>Reduce operational costs by automating communication. No manual effort, no overhead — reliable, high-volume messaging at a fraction of traditional costs.</p><a href="#contact">Chat With Executive</a></article>
+        <article><span>☼</span><h3>Widest Reach in India</h3><p>SMS reaches every mobile phone, including basic feature phones and users without email or app-based channels. Connect with customers across every corner of India.</p><a href="#contact">Chat With Executive</a></article>
+        <article><span>◔</span><h3>Advanced Analytics</h3><p>Monitor delivery, open rates and campaign performance with real-time analytics and detailed reporting for smarter business decisions.</p><a href="#contact">Chat With Executive</a></article>
+        <article class="support-card"><span>♙</span><h3>Dedicated Account Management</h3><p>Every business is on a dedicated account management plan for responsive onboarding support, DLT assistance and ongoing campaign optimisation.</p><a href="#contact">Chat With Executive</a></article>
+      </div>
+    </section>
+
+    <section class="section sms-guide container" id="sms-guide">
+      <div class="center-heading"><p class="eyebrow">Understanding the Core</p><h2>SMS, Bulk SMS &amp; SMS API What You Need to Know</h2><p>Sendgun brings together every flavour of SMS communication under one powerful platform.</p></div>
+      <div class="guide-content"><img src="assets/sms-woman.jpg" alt="Woman reading a message on her phone"><div class="guide-list">
+        <article><span>▣</span><div><h3>SMS</h3><p>SMS (Short Message Service) is the standard text message sent from one mobile device to another. It is a direct, reliable and universally accessible communication channel with every phone, no internet required. With Sendgun, every SMS is delivered instantly via operator connections, ensuring the highest delivery rates across India.</p><small>Perfect for transactional alerts, OTPs, and personal messages</small></div></article>
+        <article><span>▣</span><div><h3>Bulk SMS</h3><p>Bulk SMS refers to sending a large volume of SMS messages to many recipients at once. Typically used for marketing campaigns, announcements, reminders or client alerts. Sendgun's Bulk SMS dashboard lets you upload a CSV file, schedule campaigns, segment audiences and track performance in real time.</p><small>Ideal for promotions, offers, event notifications &amp; emergency alerts</small></div></article>
+        <article><span>✣</span><div><h3>SMS API</h3><p>SMS API (Application Programming Interface) allows developers to integrate SMS capabilities directly into their software, website or app. Instead of manually sending messages, you can automate transactional SMS like OTPs, order updates, payment confirmations via a simple code. Sendgun's REST API is developer-friendly.</p><small>Built for automation, real-time triggers &amp; high-volume integrations</small></div></article>
+      </div></div>
+    </section>
+
+    <section class="steps-section">
+      <div class="container"><div class="center-heading"><p class="eyebrow">Getting Started</p><h2>Up and Running in Three Simple Steps</h2><p>No lengthy onboarding. No complex setup. Start sending SMS messages to your customers in under 15 minutes.</p></div>
+        <div class="steps-grid"><article><span>Step - 01</span><h3>Sign Up</h3><p>Create your free Sendgun account and verify your API credentials instantly. No credit card required to start.</p></article><article><span>Step - 02</span><h3>Integrate</h3><p>Connect your application or website using our plug-and-play REST API, SDKs available for PHP, Python, Node.js and more.</p></article><article><span>Step - 03</span><h3>Send &amp; Track</h3><p>Launch your campaign or automate transactional messages. Monitor delivery, open rates and responses in real time.</p></article></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-top container">
+      <div class="footer-brand"><a class="brand dark-brand" href="#home"><span class="brand-mark">∞</span><span>Sendgun</span></a><p>India's most trusted bulk SMS and API platform built for developers, marketers and enterprise teams who demand reliability, compliance and scale.</p><div class="socials"><a href="#contact" aria-label="Facebook">f</a><a href="#contact" aria-label="Instagram">◎</a><a href="#contact" aria-label="X">𝕏</a><a href="#contact" aria-label="LinkedIn">in</a></div></div>
+      <div class="footer-cta"><p class="eyebrow">Get Started Today</p><h2>Ready to Transform Your Business Communication?</h2><p>Join over a million businesses and developers using Sendgun to send high-impact SMS campaigns, automate transactional alerts and connect with customers effectively every corner of India.</p><a class="button button-outline-dark" href="#demo-form">Schedule a Demo <span>↗</span></a></div>
+      <div class="contact-details"><h3>Contact</h3><p>☎ &nbsp; +91 9549 509 509</p><p>▣ &nbsp; sales@sendgun.in</p><p>♧ &nbsp; Jaipur, Rajasthan</p></div>
+    </div>
+    <div class="footer-links"><div class="container footer-link-grid"><div><h3>Products</h3><a href="#sms-guide">SMS API</a><a href="#sms-guide">Bulk SMS</a><a href="#sms-guide">Transactional SMS</a><a href="#sms-guide">OTP SMS</a><a href="#sms-guide">Promotional SMS</a><a href="#sms-guide">International SMS</a></div><div><h3>Resources</h3><a href="#sms-guide">API Documentation</a><a href="#sms-guide">SMS Integration Guide</a><a href="#contact">DLT Registration Help</a><a href="#features">Developer Resources SMS</a><a href="#contact">Compliance FAQs</a></div><div><h3>Why Choose Us</h3><a href="#features">Fast SMS Delivery</a><a href="#features">DLT Compliant Platform</a><a href="#features">Secure SMS API</a><a href="#contact">24/7 Technical Support</a><a href="#dashboard">High Delivery Success Rate</a></div></div></div>
+    <div class="copyright">Copyright 2026 Sendgun. All Rights Reserved.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
